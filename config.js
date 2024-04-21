@@ -9,7 +9,7 @@ const apiurls = ["https://worthwhile-mandy-c-iph3r.koyeb.app/", "https://api.alp
 
 module.exports = {
   RKEY : keysInrl[Math.floor(keysInrl.length * Math.random())],
-  SESSION_ID: process.env.SESSION_ID || "", //your session id you got from scan required to run bot
+  SESSION_ID: process.env.SESSION_ID || "01A_L_P_H_A_24_04_21_06_3_6_8Y_GT", //your session id you got from scan required to run bot
   HEROKU: {
     API_KEY: process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME,
@@ -32,7 +32,7 @@ module.exports = {
   DISABLE_GRP: toBool(process.env.DISABLE_GRP || "false"),
   ERROR_MSG: toBool(process.env.ERROR_MSG || "true"),
   AJOIN: toBool(process.env.AJOIN || "false"),
-  READ: process.env.READ || "false", //true, command
+  READ: process.env.READ || "true", //true, command
   REACT: process.env.REACT || "false", //true, command, emoji
   WARNCOUNT: process.env.WARNCOUNT || 3,
   BOT_INFO: process.env.BOT_INFO || "alpha-md;C-iph3r;https://i.imgur.com/nXqqjPL.jpg",
